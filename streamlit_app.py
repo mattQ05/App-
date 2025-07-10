@@ -240,7 +240,7 @@ elif data_source == "API Connection":
 
 
 # === Filepath Mapping Logic ===
-base_url = "https://raw.githubusercontent.com/mattQ05/refs/heads/main/hwy111_to_ave52/"
+base_url = "https://raw.githubusercontent.com/mattQ05/App/hwy111_to_ave52/"
 corridor_segment = "Washington St: Highway 111 to Avenue 52"
 
 path_map = {
