@@ -18,7 +18,8 @@ st.title("📊 Active Transportation & Operations Management Dashboard")
 
 # === SIDEBAR ===
 with st.sidebar:
-    st.image("Logos/ACE-logo-HiRes.jpg", width=200)
+    st.image("C:/Users/matt0/Downloads/Advantec-Dashboard-app-main/Advantec-Dashboard-app-main/Logos/ACE-logo-HiRes.jpg", width=200)
+
 
     # === 1. DATA SOURCE SELECTION ===
     st.markdown("## 📊 Data Source")
@@ -239,7 +240,7 @@ elif data_source == "API Connection":
 
 
 # === Filepath Mapping Logic ===
-base_url = "https://github.com/mattQ05/App-.git"
+base_url = "https://raw.githubusercontent.com/mattQ05/refs/heads/main/hwy111_to_ave52/"
 corridor_segment = "Washington St: Highway 111 to Avenue 52"
 
 path_map = {
